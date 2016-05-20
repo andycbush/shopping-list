@@ -115,13 +115,24 @@ footer {
     width: 40%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0rem;
+    margin-top: 1px;
+    text-align: left;
 }
 
 .ticked {
     text-decoration: underline;
     font-weight: bold;
-    background-color: white;
+    background-color: lightgrey;
+}
+
+.delete {
+    float: right;
+}
+
+.list {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
 }
 
 
