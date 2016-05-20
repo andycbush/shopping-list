@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <main class="wrapper">
+        <header class="title">
+            <h1>Shopping List</h1>
+        </header>
+        <section class="content">
+            <div class="input-form">
+                <!-- is there styling in this class? -->
+                <input type="text" value maxlength="20" placeholder="Add an item" id="addItemValue">
+                <button type="submit" id="addItem">+</button>
+            </div>
+            <ul class="shopping-list">
+                <!--
+                <li class="ticked">
+                    <button class="checkbox">&#10003;</button>
+                    <span class="list">Apples</span>
+                    <button class="delete">X</button>
+                </li>
+                <li>
+                    <button class="checkbox">&#10003;</button>
+                    <span class="list">Oranges</span>
+                    <button class="delete">X</button>
+                </li>
+                -->
+            </ul>
+        </section>
+        <footer>
+            <button class="delete-all">Clear List</button>
+        </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
