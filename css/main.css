@@ -81,9 +81,9 @@ Content styles (Main Module)
 .content {
     background-image: url("http://www.publicdomainpictures.net/pictures/40000/nahled/concrete-texture-background-blue.jpg");
     background-repeat: repeat-y;
-    /*what does this styling do?*/
     background-size: cover;
     min-height: 3rem;
+    //is this min-height using rem instead of px so that it adjusts with the added list items?
 }
 
 .title,
@@ -93,8 +93,8 @@ footer {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    margin-bottom: 0;
-    margin-top: 0;
+    margin-top: -0.5px;
+    margin-bottom: 0.5px;
 }
 
 .content #addItem,
